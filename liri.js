@@ -87,7 +87,9 @@ if (command === 'concert-this') {
         console.log('Title: ' + JSON.parse(body).Title);
         console.log('Year Released: ' + JSON.parse(body).Year);
         console.log('IMDB Rating: ' + JSON.parse(body).imdbRating);
-        console.log('Rotten Tomatoes Ratings: ' + JSON.parse(body).toString());
+        console.log(
+          'Rotten Tomatoes Ratings: ' + JSON.parse(body).Ratings[1].Value
+        );
         //console.log('Country Produced: ' + JSON.parse(body).Rating[1].Country);
         console.log('Language: ' + JSON.parse(body).Language);
         console.log('pilot: ' + JSON.parse(body).Plot);
