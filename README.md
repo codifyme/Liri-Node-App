@@ -18,7 +18,7 @@ What Each Command Should Do
 * Venue location
 * Date of the Event(Use moment to format this as "MM/DD/YYYY")
 
-Ex:
+Ex:concert-this.jpg
 
 2. Node liri.js spotify-this-song '<song name here>'
   
@@ -30,7 +30,7 @@ Ex:
 
 If no song is provided then your program will default to “The Sign” by Ace of Base.
 
-Ex:
+Ex:spotify-this-song.jpg
 
 3. Node liri.js movie-this '<movie name here>'
   
@@ -45,11 +45,16 @@ Ex:
    
    If the user doesn’t type a movie in, the program will output data for the movie ‘Mr. Nobody.’
    
-   Ex:
+   Ex: movie-this.jpg
    
  4. node liri.js do-what-it-says
  
-  Using the fs Node package, LIRI will take the text inside of random.txt and then     use it to call one of LIRI’s commands.
+  Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI’s commands.
+  
+  
+  Ex: IWantitThatway.jpg
+  
+  Note: screenshoot of eaxh "EX:" are located inside of the images folder.
    
 
 
