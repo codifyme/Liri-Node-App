@@ -30,7 +30,7 @@ Ex: ![Terminal concert screenshoot] (/images/concert-this.jpg)
 
 If no song is provided then your program will default to “The Sign” by Ace of Base.
 
-Ex: ![Terminal Spotify screenshoot] (/images/spotify-this-song.jpg)
+Ex: ![Terminal Spotify screenshoot] (./images/spotify-this-song.jpg)
 3. Node liri.js movie-this '<movie name here>'
   
    * Title of the movie.
