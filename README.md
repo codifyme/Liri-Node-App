@@ -18,7 +18,7 @@ What Each Command Should Do
 * Venue location
 * Date of the Event(Use moment to format this as "MM/DD/YYYY")
 
-Ex: ![Terminal concert screenshoot] (/images/concert-this.jpg)
+Ex: ![Terminal concert screenshoot](images/concert-this.jpg)
 
 2. Node liri.js spotify-this-song '<song name here>'
   
@@ -30,7 +30,7 @@ Ex: ![Terminal concert screenshoot] (/images/concert-this.jpg)
 
 If no song is provided then your program will default to “The Sign” by Ace of Base.
 
-Ex: ![Terminal Spotify screenshoot] (./images/spotify-this-song.jpg)
+Ex: ![Terminal Spotify screenshoot](images/spotify-this-song.jpg)
 3. Node liri.js movie-this '<movie name here>'
   
    * Title of the movie.
@@ -44,14 +44,14 @@ Ex: ![Terminal Spotify screenshoot] (./images/spotify-this-song.jpg)
    
    If the user doesn’t type a movie in, the program will output data for the movie ‘Mr. Nobody.’
    
-   Ex: ![Terminal Movie screenshoot] (/images/movie-this.jpg)
+   Ex: ![Terminal Movie screenshoot](images/movie-this.jpg)
    
  4. node liri.js do-what-it-says
  
   Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI’s commands.
   
   
-  Ex: ![Terminal I Want it That way screenshoot] (/images/IWantitThatway.jpg)
+  Ex: ![Terminal I Want it That way screenshoot](images/IWantitThatway.jpg)
   
   Note: screenshoot of eaxh "EX:" are located inside of the images folder.
    
